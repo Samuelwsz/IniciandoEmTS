@@ -1,6 +1,7 @@
-import style from './App.module.scss'
+import style from "./App.module.scss"
 import Formulario from "../Formulario"
 import Lista from "../Lista"
+import Cronometro from "../Cronometro"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className={style.AppStyle}>
         <Formulario />
         <Lista />
+        <Cronometro />
       </div>
     </>
   )
